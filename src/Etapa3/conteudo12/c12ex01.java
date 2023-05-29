@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package Etapa3;
+=======
+package Etapa3.conteudo12;
+>>>>>>> 20ec462 (Exercicios)
 
 import java.util.Scanner;
 
