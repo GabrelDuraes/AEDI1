@@ -21,5 +21,6 @@ public class LocalMain {
         Local c1=new Local(nome,cep,estado,popu,pontoTu);
         System.out.println();
         c1.Imprimir();
+        tec.close();
     }
 }
