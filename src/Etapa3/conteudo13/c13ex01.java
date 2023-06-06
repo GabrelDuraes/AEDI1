@@ -1,11 +1,4 @@
 package Etapa3.conteudo13;
-
-<<<<<<< HEAD
-public class c13ex01 {
-    static double x1,x2,y1,y2;
-    public static void main(String[] args) {
-
-=======
 import java.util.Scanner;
 
 public class c13ex01 {
@@ -27,6 +20,5 @@ public class c13ex01 {
         double distancia;
         distancia=Math.sqrt((Math.pow(x1-x2,2)+Math.pow(y1-y2,2)));
         return distancia;
->>>>>>> 20ec462 (Exercicios)
     }
 }
