@@ -18,10 +18,10 @@ public class Local {
                 "População do local: "+this.popu+"\n" +
                 "Ponto turistico da cidade "+this.nome+": "+this.pontoTu);
     }
-    public int AnoCid(int anoFun,int anoAtu){
+    public void AnoCid(int anoAtu,int anoFun){
         int anoCid;
         anoCid=anoAtu-anoFun;
-        return anoCid;
+        System.out.println("Cidade tem "+anoCid+" anos.");
     }
     public String getCep() {
         return this.cep;
